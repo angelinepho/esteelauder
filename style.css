@@ -3,9 +3,8 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 125px;
   font-family: arial, helvetica;
-  width: 600px;
   margin: 50px auto;
   text-align: center;
 }
