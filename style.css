@@ -6,6 +6,7 @@ body {
   height: 100%;
   display: table;
   background-color: black;
+  color: white;
 }
 
 @font-face {
@@ -21,10 +22,10 @@ body {
 
 .hero-title {
   font-family: neon;
-  color: #FB4264;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #F40A35;
+  color: #900C3F;
+  font-size: 7vw;
+  line-height: 7vw;
+  text-shadow: 0 0 3vw #88D410‬;
 }
 
 .hero-title {
@@ -36,7 +37,7 @@ body {
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    text-shadow: 0 0 1vw #8EE5F1, 0 0 3vw #8EE5F1, 0 0 10vw #8EE5F1, 0 0 10vw #8EE5F1, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #FED128;
   }
   50% {
