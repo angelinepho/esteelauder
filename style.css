@@ -16,7 +16,7 @@
 }
 
 .nav-bar-options li {
-  display: inline;
+  display: inline-block;
   padding: 14px 16px;
   font-size: 20px;
 }
@@ -24,6 +24,28 @@
 .nav-bar-options li:hover {
   background: #900c3f;
   color: white;
+}
+
+.media-0 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.middle {
+  background: #ffcac2;
+}
+
+.hero-content {
+  font-size: 50px;
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .hero-title {
@@ -34,13 +56,6 @@
   font-size: 100px;
   font-family: arial, helvetica;
   width: 600px;
-  margin: 50px auto;
-  text-align: center;
-}
-
-.hero-content {
-  font-size: 50px;
-  width: 800px;
   margin: 50px auto;
   text-align: center;
 }
@@ -58,7 +73,6 @@
   background: #900c3f;
   color: white;
 }
-
 
 .media-title {
   background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
