@@ -1,42 +1,71 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
+body { background: #000; color: #fff; position: relative;}
 
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
+@import url(https://fonts.googleapis.com/css?family=Candal);
 
-.chrome {
+.hero-content {
   position: relative;
-  background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 4px #f5f5f5;
-  font-size: 200px;
-  font-family: 'Titillium Web', sans-serif;
-  font-style: italic;
-  margin: 0;
-  line-height: 1;
 }
 
-.chrome:before {
-  content: 'CHROME';
+.hero-title {
+  position: relative;
+  font-family: 'Candal', sans-serif;
+  font-size: 180px;
+  font-style: italic;
+  -webkit-text-stroke: 0.1px #ed2121;
+  color: #fff;
+  text-shadow: -10px 10px 0px #ed2121;
+  margin: 0;
+}
+
+.windows .hero-title {
+  -webkit-text-stroke: 4px #ed2121;
+}
+
+.hero-title:before {
+  content: '';
   position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
-  background-position:-680px 0;
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 0;
-  padding-right: 300px;
-  -webkit-animation-name: chrome_effect;
-  -webkit-animation-duration: 6s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+  height: 4px;
+  width: 665px;
+  top: 83px;
+  left: 48px;
+  background: #ed2121;
+  box-shadow: -8px 13px #ed2121;
+}
+
+.windows .hero-title:before {
+  left: 55px;
+  width: 659px;
+}
+
+.hero-title:after {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 639px;
+  top: 109px;
+  left: 36px;
+  background: #ed2121;
+  box-shadow: -4px 13px #ed2121;
+}
+
+.machine {
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 130px;
+  transform:rotate(-15deg);
+  -ms-transform:rotate(-15deg); /* IE 9 */
+  -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+  color: #ed2121;
+  margin: 0;
+  margin-top: -160px;
+  padding-left: 430px;
+  text-shadow: 1px 2px 0px #F9D2D2;
+}
+
+.windows .machine {
+  margin-top: -200px;
 }
