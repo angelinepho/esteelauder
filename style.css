@@ -1,20 +1,5 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  display: table;
-  background-color: black;
-  color: white;
-}
-
-@font-face {
-  font-family: neon;
-}
-
 .title {
-  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
   color: red;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -26,55 +11,28 @@ body {
   text-align: center;
 }
 
-.title {
-  animation: title 2s linear infinite;
-  -moz-animation: title 2s linear infinite;
-  -webkit-animation: title 2s linear infinite;
-  -o-animation: title 2s linear infinite;
-}
-
-@keyframes title {
-    0%,
-  100% {
-    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-    color: #28D7FE;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
-    color: #146C80;
-  }
-}
-
-
-.hero-content {
-  display: table-cell;
+.hero-title {
+  background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
   text-align: center;
-  vertical-align: middle;
 }
 
-.hero-title {
-  font-family: neon;
-  color: #426DFB;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #2356FF;
-}
-
-.hero-title {
-  animation: hero-title 2s linear infinite;
-  -moz-animation: hero-title 2s linear infinite;
-  -webkit-animation: hero-title 2s linear infinite;
-  -o-animation: hero-title 2s linear infinite;
-}
-
-@keyframes hero-title {
-    0%,
-  100% {
-    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-    color: #28D7FE;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
-    color: #146C80;
-  }
+.media-title {
+  background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
 }
