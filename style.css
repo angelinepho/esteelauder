@@ -31,34 +31,20 @@
   text-align: center;
 }
 
-a.button2{
- display:inline-block;
- padding:0.5em 3em;
- border:0.16em solid #FFFFFF;
- margin:0 0.3em 0.3em 0;
- box-sizing: border-box;
- text-decoration:none;
- text-transform:uppercase;
- font-family:'Roboto',sans-serif;
- font-weight:400;
- color:#FFFFFF;
- text-align:center;
- transition: all 0.15s;
+.shop-now-btn{
+  border: 3px solid #900c3f;
+  background-color: white;
+  color: #900c3f;
+  padding: 14px 28px;
+  font-size: 30px;
+  cursor: pointer;
 }
-a.button2:hover{
- color:#DDDDDD;
- border-color:#DDDDDD;
+
+.shop-now-btn:hover {
+  background: #900c3f;
+  color: white;
 }
-a.button2:active{
- color:#BBBBBB;
- border-color:#BBBBBB;
-}
-@media all and (max-width:30em){
- a.button2{
-  display:block;
-  margin:0.4em auto;
- }
-}
+
 
 .media-title {
   background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
