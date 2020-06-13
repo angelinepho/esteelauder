@@ -1,3 +1,7 @@
+.nav-bar {
+  text-align: center;
+}
+
 .title {
   background: url(https://cdn.glitch.com/136a1dbb-82c7-4729-a9be-298e40f284f2%2FUGC-pc-1.jpg?v=1592015289581) -80px -80px;
   color: red;
@@ -8,7 +12,27 @@
   font-family: arial, helvetica;
   width: 600px;
   margin: 50px auto;
+}
+
+.nav-bar-options ul {
+  list-style: none;
+  background-color: #000000;
   text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar-options li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar-options li:hover {
+  background: #900c3f;
+  color: white;
 }
 
 .hero-title {
